@@ -1,4 +1,4 @@
-import { removeAcentos } from './removeAcentos'
+import { removeAcentos } from '../acentos'
 
 test('should return the string without any accent marks', () => {
     const withAccent = "socorram-me subi no ônibus em marrocos";

@@ -1,4 +1,4 @@
-const prepositions: string[] = [
+export const prepositions: string[] = [
     "por", "a", "para", "de", "em", "o", "pelo", "ao", "pro", "do",
     "no", "a", "pela", "à", "pra", "da", "na", "os", "pelos", "aos",
     "pros", "dos", "nos", "as", "pelas", "às", "pras", "das", "nas",
@@ -8,3 +8,7 @@ const prepositions: string[] = [
     "nesse", "disso", "nisso", "àquele", "praquele",
     "daquele", "naquele", "àquilo", "praquilo", "daquilo", "naquilo"
 ];
+
+export function ehPreposicao(str: string) : boolean {
+    return !!prepositions.find(preposition => str === preposition);
+}
