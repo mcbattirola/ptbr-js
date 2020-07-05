@@ -5,7 +5,6 @@
         "outDir": "./dist/",
         "rootDir": "./src",
         "strict": true,
-        "declaration": true,
         "module": "commonjs",
     },
     "exclude": ["node_modules", "**/*.spec.ts", "./benchmarks"]
