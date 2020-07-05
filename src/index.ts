@@ -1,3 +1,3 @@
-import { removeAcento } from './removeAcentos';
+import { removeAcentos } from './removeAcentos';
 
-export { removeAcento };
+export { removeAcentos };

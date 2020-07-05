@@ -1,4 +1,4 @@
-const removeAcento = (text: String): String => {
+const removeAcentos = (text: String): String => {
     text = text.replace(new RegExp('[ÁÀÂÃÄ]', 'gi'), 'a');
     text = text.replace(new RegExp('[ÉÈÊË]', 'gi'), 'e');
     text = text.replace(new RegExp('[ÍÌÎÏ]', 'gi'), 'i');
@@ -7,4 +7,4 @@ const removeAcento = (text: String): String => {
     return text;
 }
 
-export { removeAcento };
+export { removeAcentos };
