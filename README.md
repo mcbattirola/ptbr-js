@@ -25,6 +25,7 @@ ptbr.capitalizeEveryWord('olá da ptbr'); //Olá Da Ptbr
 ``
 
 também aceita um parâmetro opcional para ignorar preposições:
+
 ``
 ptbr.capitalizeEveryWord('olá da ptbr', true); //Olá da Ptbr
 ``
