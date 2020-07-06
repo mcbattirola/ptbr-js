@@ -11,6 +11,12 @@
   },
   "author": "Matheus Battirola",
   "license": "MIT",
+  "keywords": [
+    "acentos",
+    "brasil",
+    "portugues",
+    "preposicoes"
+  ],
   "devDependencies": {
     "@babel/parser": "^7.10.4",
     "@babel/types": "^7.10.4",
