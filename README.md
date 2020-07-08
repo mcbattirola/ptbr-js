@@ -1,5 +1,5 @@
 # ptbr
-**ptbr** é uma biblioteca leve e simples, com funções comuns quando se trabalha com português brasileiro.
+**ptbr** é uma biblioteca leve e simples, com funções comuns quando se trabalha com português brasileiro. 
 ___
 instalação: 
 
@@ -44,3 +44,7 @@ ptbr.removeAcentos('olá da ptbr'); //ola da ptbr
 ``
 ptbr.removeCedilha('caçar'); //cacar
 ``
+
+## Contribuições
+
+Tem alguma ideia ou melhoraria? Abra uma issue ou PR e vamos conversar!
